@@ -24,7 +24,7 @@ jobs:
        run: python app.py
 
      - name: Publish files to github repo
-       run: mikeal/publish-to-github-action@master  
-       env:
+      uses: mikeal/publish-to-github-action@master
+      env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         BRANCH_NAME: 'main'      
