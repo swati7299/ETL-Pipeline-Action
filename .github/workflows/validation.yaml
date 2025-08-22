@@ -21,10 +21,10 @@ jobs:
        run: pip install pandas datatime
 
      - name: Run the script
-       runs: python app.py
+       run: python app.py
 
      - name: Publish files to github repo
-       runs: mikeal/publish-to-github-action@master  
+       run: mikeal/publish-to-github-action@master  
        env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         BRANCH_NAME: 'main'      
