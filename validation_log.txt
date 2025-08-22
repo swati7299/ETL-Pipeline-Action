@@ -8,3 +8,11 @@
   id         name  age
 2  3  Invalid Age  abc
 2025-08-22 11:30:15.246872 - Data validation failed.
+2025-08-22 06:40:03.438092 - Data loaded successfully.
+2025-08-22 06:40:03.445994 - Missing values found:
+  id name age
+3  4  NaN  30
+2025-08-22 06:40:03.446037 - Invalid age values found:
+  id         name  age
+2  3  Invalid Age  abc
+2025-08-22 06:40:03.446060 - Data validation failed.
